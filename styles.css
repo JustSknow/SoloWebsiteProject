@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gentium Plus', serif;
+}
+
+img {
+    width: 100px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://m.media-amazon.com/images/I/61VmYAGCGFL._AC_SX679_.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+#Dallas {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #1D3557;
+    background-color: #A8DADC;
+}
+
+#slogan {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid #A8DADC;
+    color: #1D3557;
+    background-color: #F1FAEE;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;   
+    padding-top: 5px;
+    color: #1D3557;
+    text-shadow: 0px 0px 0px black;
+
+}
+.activities {
+    text-shadow: 0px 0px 1px black;
+}
+.column {
+    width: 200px;
+    margin-top: 5px;
+}
+.activityimg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guide {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 23px 13px;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A8DADC;
+    border-bottom: 8px solid #1D3557;
+    color: #457B9D;
+    font-size: 20px;
+}
+
+.guidecontent {
+    padding-left: 10px;
+    
+}
+
+#Per {
+    height: 248px;
+    width: 180px;
+}
